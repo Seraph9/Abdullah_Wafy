@@ -33,6 +33,18 @@ body {
 	line-height: 1;
 }
 
+.contact-links {
+	border: 2px midnightblue solid;
+	border-radius: .12em;
+	font-size: 50px;
+}
+
+.contact-links:hover {
+	background-color: wheat;
+	border: 2px purple solid;
+	
+}
+
 ol, ul {
 	list-style: none;
 }
