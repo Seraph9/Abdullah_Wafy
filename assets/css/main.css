@@ -45,6 +45,15 @@ body {
 	
 }
 
+.app_image:hover {
+	border: 5px midnightblue  solid;
+}
+
+.app_title:hover {
+	color: midnightblue;
+	font-weight: bolder;
+}
+
 ol, ul {
 	list-style: none;
 }
