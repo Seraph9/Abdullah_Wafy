@@ -37,6 +37,7 @@ body {
 	border: 2px midnightblue solid;
 	border-radius: .12em;
 	font-size: 50px;
+	padding: 10px;
 }
 
 .contact-links:hover {
