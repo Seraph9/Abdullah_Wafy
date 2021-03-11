@@ -40,6 +40,12 @@ body {
 	/* text-align: center; */
 }
 
+#my_lastname_pronounce {
+	font-size: 9px;
+	position: relative;
+	bottom: 60px;
+}
+
 #about_paragraph {
 	text-align: justify;
 	/* text-indent: 50px; */
@@ -99,7 +105,30 @@ body {
 .contact-links:hover {
 	background-color: wheat;
 	border: 2px purple solid;
-	
+}
+
+#linkedin_link {
+	border: 2px midnightblue solid;
+	border-radius: .12em;
+	font-size: 50px;
+	padding: 10px;
+}
+
+#linkedin_link:hover {
+	background-color: cyan;
+	border: 2px purple solid;
+}
+
+#angel_list_link {
+	border: 2px midnightblue solid;
+	border-radius: .12em;
+	font-size: 50px;
+	padding: 10px;
+}
+
+#angel_list_link:hover {
+	background-color: greenyellow;
+	border: 2px purple solid;
 }
 
 .app_image:hover {
