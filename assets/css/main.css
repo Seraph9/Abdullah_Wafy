@@ -33,6 +33,13 @@ body {
 	line-height: 1;
 }
 
+#my_name_pronounce {
+	font-size: 9px;
+	position: relative;
+	bottom: 40px;
+	/* text-align: center; */
+}
+
 #about_paragraph {
 	text-align: justify;
 	/* text-indent: 50px; */
@@ -51,6 +58,35 @@ body {
 #my_pic:hover {
 	content: url("../../images/Profile_Pic1.png"); /* changes img src */
 	border: 7px solid hotpink;
+}
+
+#crc:hover {
+	content: url("../../images/los_rios.jpg");
+}
+
+#crc_link:hover {
+	color: orange
+}
+
+#los_rios_link {
+	border: 0;
+}
+
+.app_academy_link {
+	border: 0 /* to remove dotted underline when not hovering over a tag */
+}
+
+.app_academy_link:hover {
+	color: orange;
+}
+
+.ucd_link {
+	border: 0;
+	color: #7C8081;
+}
+
+.ucd_link:hover {
+	color: orange
 }
 
 .contact-links {
