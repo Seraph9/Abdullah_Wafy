@@ -33,6 +33,18 @@ body {
 	line-height: 1;
 }
 
+#my_pic {
+	border: 7px groove midnightblue; 
+	border-radius: 12em; 
+	margin-top:55px;
+	
+}
+
+#my_pic:hover {
+	content: url("../../images/Profile_Pic1.png");
+	border: 7px solid hotpink;
+}
+
 .contact-links {
 	border: 2px midnightblue solid;
 	border-radius: .12em;
