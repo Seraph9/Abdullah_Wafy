@@ -33,6 +33,14 @@ body {
 	line-height: 1;
 }
 
+#about_paragraph {
+	text-align: justify;
+	/* text-indent: 50px; */
+	text-align-last: center;
+	display:flex; 
+	flex-direction: column
+}
+
 #my_pic {
 	border: 7px groove midnightblue; 
 	border-radius: 12em; 
@@ -41,7 +49,7 @@ body {
 }
 
 #my_pic:hover {
-	content: url("../../images/Profile_Pic1.png");
+	content: url("../../images/Profile_Pic1.png"); /* changes img src */
 	border: 7px solid hotpink;
 }
 
