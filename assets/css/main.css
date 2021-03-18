@@ -33,6 +33,10 @@ body {
 	line-height: 1;
 }
 
+#logo:hover {
+	color: #928A76
+}
+
 #my_name_pronounce {
 	font-size: 9px;
 	position: relative;
